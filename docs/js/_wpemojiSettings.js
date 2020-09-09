@@ -4,7 +4,7 @@ window._wpemojiSettings = {
     svgUrl: "https://s.w.org/images/core/emoji/11/svg/",
     svgExt: ".svg",
     source: {
-        concatemoji: "src/js/wp-emoji-release.min.js",
+        concatemoji: "/js/wp-emoji-release.min.js",
     },
 };
 !(function (a, b, c) {
