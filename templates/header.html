@@ -1,0 +1,66 @@
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header id="masthead" class="site-header default container" role="banner">
+    <div class="header-container">
+        <div class="header-container_wrap container">
+            <div class="site-branding">
+                <div class="site-logo"><a class="site-logo__link" href="index.html" rel="home">Best New York Osteopathic</a></div>
+            </div>
+            <div class="site-info">
+                <div class="phone__info">
+                    <h6>Call Today: </h6>
+                    <a href="tell:#">718.576.1212</a>
+                    <h6>&nbsp;</h6>
+                    <em>&nbsp;</em>
+                </div>
+                <div class="time__info">
+                    <h6>Manhattan Office: </h6>
+                    <em>Tue, Thur: 11am–5pm;</em>
+                    <h6>Brooklyn Office: </h6>
+                    <em>Mon, Wed, Fri, Sat: 10am–6pm;</em>
+                </div>
+            </div>
+            <div class="site-menu">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <button class="menu-toggle" aria-controls="main-menu" aria-expanded="false"><i class="material-icons">subject</i></button>
+                    <ul id="main-menu" class="menu">
+
+                        {% if menu_item == "none" %}
+                        <li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-65 current_page_item menu-item-959"><a href="/index.html">Home</a></li>
+                        {% else %}
+                        <li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-65 menu-item-959"><a href="/index.html">Home</a></li>
+                        {% endif %}
+
+
+                        {% if menu_item == "about-the-doctor" %}
+                        <li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045 current-menu-item current_page_item"><a href="/about-the-doctor/">About the Doctor</a></li>
+                        {% else %}
+                        <li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045"><a href="/about-the-doctor/">About the Doctor</a></li>
+                        {% endif %}
+
+
+                        {% if menu_item == "osteopathic-manipulative-medicine" %}
+                        <li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153 current-menu-item current_page_item"><a href="/osteopathic-manipulative-medicine/">Osteopathic Manipulative Medicine</a></li>
+                        {% else %}
+                        <li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153"><a href="/osteopathic-manipulative-medicine/">Osteopathic Manipulative Medicine</a></li>
+                        {% endif %}
+
+                        {% if menu_item == "osteopathic-treatments" %}
+                        <li id="menu-item-1200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1200 current-menu-item current_page_item"><a href="/osteopathic-treatments/">Treatments</a></li>
+                        {% else %}
+                        <li id="menu-item-1200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1200"><a href="/osteopathic-treatments/">Treatments</a></li>
+                        {% endif %}
+
+                        {% if menu_item == "contact-us" %}
+                        <li id="menu-item-1215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1215  current-menu-item current_page_item"><a href="/contact-us/">Contact us</a></li>
+                        {% else %}
+                        <li id="menu-item-1215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1215"><a href="/contact-us/">Contact us</a></li>
+                        {% endif %}
+
+                    </ul>
+                </nav>
+                <!-- #site-navigation -->
+            </div>
+        </div>
+    </div>
+    <!-- .header-container -->
+</header>

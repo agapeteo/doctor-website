@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "head.html" %}
+</head>
+
+<body class="home page-template-default page page-id-65 do-etfw group-blog header-layout-boxed content-layout-fullwidth footer-layout-boxed blog-default position-fullwidth sidebar-1-3 tm_pb_builder">
+
+<div id="page" class="site">
+
+{% block header %}
+    {% set cur_menu_item = page.extra.menu_item | default(value="none") %}
+    {% set menu_item = cur_menu_item %}
+    {% include "header.html" %}
+{% endblock header %}
+
+
+  {% block content %}{% endblock %}
+
+
+    
+{% include "footer.html" %}
+
+</div> <!-- div page -->
+
+</body>
+
+</html>
