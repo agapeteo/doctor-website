@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://agapeteo.github.io/doctor-website/sitemap.xml
+Sitemap: http://doctor.deepidea.cloud/sitemap.xml
