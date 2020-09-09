@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.bestnyosteopathic.com/sitemap.xml
+Sitemap: https://agapeteo.github.io/doctor-website/sitemap.xml
